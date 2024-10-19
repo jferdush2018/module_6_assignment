@@ -1,0 +1,86 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family:"Afacad Flux", sans-serif;
+}
+
+body{
+    background-color: rgb(97, 60, 145);
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+
+}
+
+.container{
+    width: 780px;
+    height: 460px;
+    background: rgb(231, 231, 231);
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.reg{
+        color: rgba(20, 16, 22, 0.918);
+        text-align: center;
+        margin-bottom: 30px;
+}
+
+.area{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fill label {
+    color: rgb(97, 97, 97);
+    font-weight: bold;
+    line-height: 40px;
+    padding-right: 20px;
+}
+
+.fill{
+   margin-bottom: 20px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.fill input {
+    padding: 10px 40px 10px 10px;
+    border: 1px solid rgb(153, 153, 153);
+    border-radius: 5px;
+}
+
+.gender-rec .gender{
+    color: rgb(21, 15, 22);
+    font-weight: bold;
+    padding-right: 35px;
+}
+
+.gender-rec label{
+    color: rgb(33, 19, 36);
+    padding-right: 20px;
+   margin-top:30px;
+}
+
+.button {
+    margin-top: 20px;
+}
+
+.button .cancel, .submit{
+    color: #d1d0d0;
+    padding: 10px 25px;
+    border: none;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.button .cancel{
+    background-color: #5c1850;
+}
+
+.button .submit{
+    background: linear-gradient(45deg, rgb(32, 26, 109) 0%, rgb(31, 31, 199) 100%)
+}
